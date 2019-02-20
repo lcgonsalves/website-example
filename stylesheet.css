@@ -1,7 +1,80 @@
+/* MAIN PAGE */
+
 div {
 	margin: 0 auto;
 	height: auto;
-	/* width: 80%; */
-	border: 1px solid red;
+	text-align: center;
 }
 
+#root {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body {
+	min-height: 100%;
+	margin: 0;
+	background-color: hsl(0, 60%, 80%);
+	color: black;
+}
+
+html {
+	height: 100%;
+}
+
+.title {
+	font-size: 75px;
+	margin-block-end: 0.2em;
+}
+
+.icon {
+	width: 25px;
+	height: 25px;
+	margin-right: 0.5em;
+	vertical-align: text-bottom;
+}
+
+a {
+	margin: 10px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: darkblue;
+}
+
+#links {
+	margin: 50px;
+}
+
+/* ABOUT */
+
+img {
+	height: 200px;
+	width:  200px;
+	border-radius: 30%;
+}
+
+#content {
+	margin: 5em;
+	border-top: 2px solid white;
+	padding: 3em;
+}
+
+#skills {
+	text-align: left;
+	margin: 0 auto;
+	border: 2px dotted white;
+	width: 300px;
+	padding: 3em;
+}

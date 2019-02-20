@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- The <head> tag contains mostly metadata and imports -->
+  <head>
+    <!-- What shows up on the tab -->
+
+    <!-- Importing a script. Multiple can be done. Script can also be written in the html doc -->
+    <script src="../script.js"></script>
+
+    <!-- Importing a stylesheet. This is what makes the website look good -->
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  </head>
+
+  <!-- The actual contents of the website. When the body loads, it will run the main() function defined in the script.js -->
+  <body onload="main()">
+    <!-- The id attribute has to be unique in the scope of the page -->
+    <div id="about-root">
+      <h1>About me.</h1>
+     
+      <div id="content">
+        <img src="https://leogons.com/wp-content/uploads/2019/01/lcgons_profilepic_12_sqare-768x768.jpg">
+        <h2>Who am I?</h2>
+        <p>Born and raised in the warm lands of South-Eastern Brazil, Léo studies Computer Science at the Worcester Polytechnic Institute in Massachusetts, USA. His greatest passion is creation; this translates into website, game, and software development in the area of computer science, or photography and music composition when it comes to hobbies. A summary of his resume can be found below.</p>
+
+        <div id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Programming</li>
+            <li>Doing code</li>
+            <li>Comp sci</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <br>
+      <a href="../index.html">Go back!</a>
+    </div>
+  </body>
+</html>
