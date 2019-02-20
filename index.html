@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- The <head> tag contains mostly metadata and imports -->
+  <head>
+    <!-- What shows up on the tab -->
+    <title>My Personal Website</title>
+
+    <!-- Importing a script. Multiple can be done. Script can also be written in the html doc -->
+    <script src="script.js"></script>
+
+    <!-- Importing a stylesheet. This is what makes the website look good -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+
+  <!-- The actual contents of the website. When the body loads, it will run the main() function defined in the script.js -->
+  <body onload="main()">
+
+    <!-- The id attribute has to be unique in the scope of the page -->
+    <div id="root">
+        this is a div component!
+        <div id="inside">
+          this is another div inside the previous one!
+        </div>
+    </div>
+  </body>
+</html>
