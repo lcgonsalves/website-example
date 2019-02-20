@@ -17,3 +17,8 @@ The code demonstrates the following concepts:
 * positioning of elements in the DOM
 * demonstration of simple css styling
 * live updating of webpage html through vanilla javascript
+
+## Links
+* [HSL color picker](http://hslpicker.com/)
+* [W3 Schools (HTML, CSS, JS reference)](https://www.w3schools.com/)
+* [Leo's personal website](https://leogons.com)
