@@ -1,13 +1,7 @@
-#root {
+div {
 	margin: 0 auto;
-	height: 500px;
-	width: 80%;
-	border: 1px solid black;
+	height: auto;
+	/* width: 80%; */
+	border: 1px solid red;
 }
 
-#inside {
-	margin: 5px auto;
-	height: 40%;
-	width: 80%;
-	border: 1px solid blue;
-}
